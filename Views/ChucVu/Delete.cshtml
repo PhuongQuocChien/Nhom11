@@ -1,0 +1,27 @@
+@model BaiTapNhom11.Models.ChucVu
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Chào mừng đến với trang chức vụ cửa hàng sách BookKing</h1>
+
+
+<div>
+    
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TenChucVu)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TenChucVu)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="MaChucVu" />
+        <input type="submit" value="Xóa" class="btn btn-danger" /> |
+        <a asp-action="Index">Quay Lại</a>
+    </form>
+</div>

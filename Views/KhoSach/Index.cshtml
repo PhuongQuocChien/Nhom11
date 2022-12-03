@@ -1,0 +1,53 @@
+@model IEnumerable<BaiTapNhom11.Models.KhoSach>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Chào mừng đến với trang kho sách cửa hàng sách BookKing </h1>
+
+<p>
+    <a asp-action="Create">Thêm mới</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TenSach)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NgayNhap)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DaBan)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ConLai)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenSach)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayNhap)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DaBan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ConLai)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.TenSach">Sửa</a> |
+                <a asp-action="Details" asp-route-id="@item.TenSach">Xem</a> |
+                <a asp-action="Delete" asp-route-id="@item.TenSach">Xóa</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

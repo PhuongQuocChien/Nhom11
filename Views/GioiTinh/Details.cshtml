@@ -1,0 +1,24 @@
+@model BaiTapNhom11.Models.GioiTinh
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Chào mừng đến với trang giới tính cửa hàng sách BookKing</h1>
+
+<div>
+    
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TenGioiTinh)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TenGioiTinh)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.MaGioiTinh">Sửa</a> |
+    <a asp-action="Index">Quay Lại</a>
+</div>

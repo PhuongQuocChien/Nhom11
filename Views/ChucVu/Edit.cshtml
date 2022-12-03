@@ -1,0 +1,34 @@
+@model BaiTapNhom11.Models.ChucVu
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Chào mừng đến với trang chức vụ cửa hàng sách BookKing</h1>
+
+<h4></h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="MaChucVu" />
+            <div class="form-group">
+                <label asp-for="TenChucVu" class="control-label"></label>
+                <input asp-for="TenChucVu" class="form-control" />
+                <span asp-validation-for="TenChucVu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Sửa" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Quay Lại</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

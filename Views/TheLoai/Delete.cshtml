@@ -1,0 +1,27 @@
+@model BaiTapNhom11.Models.TheLoai
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Chào mừng đến với trang thể loại cửa hàng sách BookKing</h1>
+
+
+<div>
+    
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TenTheLoai)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TenTheLoai)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="MaTheLoai" />
+        <input type="submit" value="Xóa" class="btn btn-danger" /> |
+        <a asp-action="Index">Quay Lại</a>
+    </form>
+</div>

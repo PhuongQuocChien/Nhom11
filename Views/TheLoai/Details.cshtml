@@ -1,0 +1,24 @@
+@model BaiTapNhom11.Models.TheLoai
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Chào mừng đến với trang thể loại cửa hàng sách BookKing</h1>
+
+<div>
+    
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TenTheLoai)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TenTheLoai)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.MaTheLoai">Sửa</a> |
+    <a asp-action="Index">Quay Lại</a>
+</div>
