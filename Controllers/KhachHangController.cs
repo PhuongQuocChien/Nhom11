@@ -52,7 +52,7 @@ namespace BaiTapNhom11.Controllers
         {
             ViewData["MaGioiTinh"] = new SelectList(_context.GioiTinh, "MaGioiTinh", "TenGioiTinh");
             ViewData["MaThe"] = new SelectList(_context.TheKhachHang, "MaThe", "MauThe");
-            var newKhachHang = "MA001";
+            var newKhachHang = "KH001";
             var countKhachHang = _context.KhachHang.Count();
             if (countKhachHang > 0)
             {

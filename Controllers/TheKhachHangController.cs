@@ -6,12 +6,15 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BaiTapNhom11.Models;
+using BaiTapNhom11.Models.Process;
 
 namespace BaiTapNhom11.Controllers
 {
     public class TheKhachHangController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private StringProcess strPro = new StringProcess();
+        private ExcelProcess _excelProcess = new ExcelProcess();
 
         public TheKhachHangController(ApplicationDbContext context)
         {
@@ -47,6 +50,14 @@ namespace BaiTapNhom11.Controllers
         // GET: TheKhachHang/Create
         public IActionResult Create()
         {
+            var newMaTheKhachHang = "TKH001";
+            var countTheKhachHang = _context.TheKhachHang.Count();
+            if (countTheKhachHang>0)
+            {
+                var maTheKhachHang = _context.TheKhachHang.OrderByDescending(m => m.MaThe).First().MaThe;
+                newMaTheKhachHang = strPro.AutoGenerateCode(maTheKhachHang);
+            }
+            ViewBag.maThe = newMaTheKhachHang;
             return View();
         }
 
@@ -157,6 +168,53 @@ namespace BaiTapNhom11.Controllers
         private bool TheKhachHangExists(string id)
         {
           return (_context.TheKhachHang?.Any(e => e.MaThe == id)).GetValueOrDefault();
+        }
+
+        public async Task<IActionResult> Upload()
+        {
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Upload(IFormFile file)
+        {
+            if (file != null)
+            {
+                string fileExtension = Path.GetExtension(file.FileName);
+                if (fileExtension != ".xls" && fileExtension != ".xlsx")
+                {
+                    ModelState.AddModelError("", "Please choose excel file to upload");
+                }
+                else
+                {
+                    //rename file when upload to sever
+                    var FileName = DateTime.Now.ToShortTimeString() + fileExtension;
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory() + "/Uploads/Excels", FileName);
+                    var fileLocation = new FileInfo(filePath).ToString();
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        //save file to sever
+                        await file.CopyToAsync(stream);
+                        //read data from file and write to database
+                        var dt = _excelProcess.ExcelToDataTable(fileLocation);
+                        //using for loop to read data from dt
+                        for (int i = 0; i < dt.Rows.Count; i++)
+                        {
+                            
+                            var qq = new QueQuan();
+                            //set values for attributes
+                            qq.MaQueQuan = dt.Rows[i][0].ToString();
+                            qq.TenQueQuan = dt.Rows[i][1].ToString();
+                            //add object to context
+                            _context.QueQuan.Add(qq);
+                        }
+                        //save to database
+                        await _context.SaveChangesAsync();
+                        return RedirectToAction(nameof(Index));
+                    }
+                }
+            }
+            return View();
         }
     }
 }

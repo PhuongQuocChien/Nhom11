@@ -6,12 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BaiTapNhom11.Models;
+using BaiTapNhom11.Models.Process;
 
 namespace BaiTapNhom11.Controllers
 {
     public class GioiTinhController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private StringProcess strPro = new StringProcess();
 
         public GioiTinhController(ApplicationDbContext context)
         {
@@ -47,6 +49,14 @@ namespace BaiTapNhom11.Controllers
         // GET: GioiTinh/Create
         public IActionResult Create()
         {
+            var newMaGioiTinh = "GT001";
+            var countGioiTinh = _context.GioiTinh.Count();
+            if (countGioiTinh>0)
+            {
+                var maGioiTinh = _context.GioiTinh.OrderByDescending(m => m.MaGioiTinh).First().MaGioiTinh;
+                newMaGioiTinh = strPro.AutoGenerateCode(maGioiTinh);
+            }
+            ViewBag.newMaGioiTinh = newMaGioiTinh;
             return View();
         }
 

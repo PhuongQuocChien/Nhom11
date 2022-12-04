@@ -6,12 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BaiTapNhom11.Models;
+using BaiTapNhom11.Models.Process;
 
 namespace BaiTapNhom11.Controllers
 {
     public class HoaDonNhapController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private StringProcess strPro = new StringProcess();
 
         public HoaDonNhapController(ApplicationDbContext context)
         {
@@ -47,6 +49,14 @@ namespace BaiTapNhom11.Controllers
         // GET: HoaDonNhap/Create
         public IActionResult Create()
         {
+            var newMaHoaDon = "HD001";
+            var countHoaDon = _context.HoaDonNhap.Count();
+            if(countHoaDon>0)
+            {
+                var maHoaDon = _context.HoaDonNhap.OrderByDescending(m => m.MaHoaDonNhap).First().MaHoaDonNhap;
+                newMaHoaDon = strPro.AutoGenerateCode(maHoaDon);
+            }
+            ViewBag.newMaHoaDon = newMaHoaDon;
             return View();
         }
 

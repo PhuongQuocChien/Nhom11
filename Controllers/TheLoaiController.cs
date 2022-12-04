@@ -6,13 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BaiTapNhom11.Models;
-using BaiTapLon_Nhom11.Models.Process;
+using BaiTapNhom11.Models.Process;
 
 namespace BaiTapNhom11.Controllers
 {
     public class TheLoaiController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private StringProcess strPro = new StringProcess();
 
         public TheLoaiController(ApplicationDbContext context)
         {
@@ -48,6 +49,14 @@ namespace BaiTapNhom11.Controllers
         // GET: TheLoai/Create
         public IActionResult Create()
         {
+            var newMaTheLoai = "TL001";
+            var countTheLoai = _context.TheLoai.Count();
+            if(countTheLoai>0)
+            {
+                var maTheLoai = _context.TheLoai.OrderByDescending(m => m.MaTheLoai).First().MaTheLoai;
+                newMaTheLoai = strPro.AutoGenerateCode(maTheLoai);
+            }
+            ViewBag.maTheLoai = newMaTheLoai;
             return View();
         }
 

@@ -6,13 +6,15 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BaiTapNhom11.Models;
-using BaiTapLon_Nhom11.Models.Process;
+using BaiTapNhom11.Models.Process;
 
 namespace BaiTapNhom11.Controllers
 {
     public class QueQuanController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private StringProcess strPro = new StringProcess();
+        private ExcelProcess _excelProcess = new ExcelProcess();
 
         public QueQuanController(ApplicationDbContext context)
         {
@@ -48,6 +50,14 @@ namespace BaiTapNhom11.Controllers
         // GET: QueQuan/Create
         public IActionResult Create()
         {
+            var newMaQueQuan = "QQ001";
+            var countQueQuan = _context.QueQuan.Count();
+            if (countQueQuan>0)
+            {
+                var maQueQuan = _context.QueQuan.OrderByDescending(m => m.MaQueQuan).First().MaQueQuan;
+                newMaQueQuan = strPro.AutoGenerateCode(maQueQuan);
+            }
+            ViewBag.newMaQueQuan = newMaQueQuan;
             return View();
         }
 
@@ -160,7 +170,6 @@ namespace BaiTapNhom11.Controllers
           return (_context.QueQuan?.Any(e => e.MaQueQuan == id)).GetValueOrDefault();
         }
 
-        private ExcelProcess _excelProcess = new ExcelProcess();
 
         public async Task<IActionResult> Upload()
         {

@@ -54,7 +54,7 @@ namespace BaiTapNhom11.Controllers
             ViewData["MaChucVu"] = new SelectList(_context.ChucVu, "MaChucVu", "TenChucVu");
             ViewData["MaGioiTinh"] = new SelectList(_context.GioiTinh, "MaGioiTinh", "TenGioiTinh");
             ViewData["MaQueQuan"] = new SelectList(_context.QueQuan, "MaQueQuan", "TenQueQuan");
-            var newnhanvien = "NCC01";
+            var newnhanvien = "NV001";
             var countnhanvien = _context.NhanVien.Count();
             if (countnhanvien > 0)
             {

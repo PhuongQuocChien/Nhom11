@@ -10455,19 +10455,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nguye\\.nuget\\packages\\": {}
+    "C:\\Users\\lamho\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nguye\\Downloads\\BTLNgao\\BTLNgao\\BaiTapNhom11\\BaiTapNhom11.csproj",
+      "projectUniqueName": "E:\\BTL\\BTLon\\Nhom11\\BaiTapNhom11.csproj",
       "projectName": "BaiTapNhom11",
-      "projectPath": "C:\\Users\\nguye\\Downloads\\BTLNgao\\BTLNgao\\BaiTapNhom11\\BaiTapNhom11.csproj",
-      "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nguye\\Downloads\\BTLNgao\\BTLNgao\\BaiTapNhom11\\obj\\",
+      "projectPath": "E:\\BTL\\BTLon\\Nhom11\\BaiTapNhom11.csproj",
+      "packagesPath": "C:\\Users\\lamho\\.nuget\\packages\\",
+      "outputPath": "E:\\BTL\\BTLon\\Nhom11\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\lamho\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -10529,7 +10529,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-rc.2.22477.23\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
