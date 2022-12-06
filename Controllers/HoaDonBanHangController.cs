@@ -6,12 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BaiTapNhom11.Models;
+using BaiTapNhom11.Models.Process;
 
 namespace BaiTapNhom11.Controllers
 {
     public class HoaDonBanHangController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private StringProcess strPro = new StringProcess();
 
         public HoaDonBanHangController(ApplicationDbContext context)
         {
@@ -52,6 +54,15 @@ namespace BaiTapNhom11.Controllers
             ViewData["MaKhachHang"] = new SelectList(_context.KhachHang, "MaKhachHang", "TenKhachHang");
             ViewData["MaNhanVien"] = new SelectList(_context.NhanVien, "MaNhanVien", "HoVaTen");
             ViewData["MaSach"] = new SelectList(_context.Sach, "MaSach", "TenSach");
+             var newMaHoaDon = "HD001";
+            var countHoaDon = _context.HoaDonNhap.Count();
+            if(countHoaDon>0)
+            {
+                var maHoaDon = _context.HoaDonNhap.OrderByDescending(m => m.MaHoaDonNhap).First().MaHoaDonNhap;
+                newMaHoaDon = strPro.AutoGenerateCode(maHoaDon);
+            }
+            ViewBag.newMaHoaDon = newMaHoaDon;
+            return View();
             return View();
         }
 
