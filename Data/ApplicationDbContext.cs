@@ -31,4 +31,6 @@ using BaiTapNhom11.Models;
         public DbSet<BaiTapNhom11.Models.TheKhachHang> TheKhachHang { get; set; } = default!;
 
         public DbSet<BaiTapNhom11.Models.KhachHang> KhachHang { get; set; } = default!;
+
+        public DbSet<BaiTapNhom11.Models.HoaDonBanHang> HoaDonBanHang { get; set; } = default!;
     }

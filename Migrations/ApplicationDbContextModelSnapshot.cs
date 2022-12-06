@@ -44,6 +44,38 @@ namespace BaiTapNhom11.Migrations
                     b.ToTable("GioiTinh");
                 });
 
+            modelBuilder.Entity("BaiTapNhom11.Models.HoaDonBanHang", b =>
+                {
+                    b.Property<string>("MaHoaDon")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("MaKhachHang")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("MaNhanVien")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("MaSach")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime?>("NgayLapHoaDon")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int?>("TongTien")
+                        .IsRequired()
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("MaHoaDon");
+
+                    b.HasIndex("MaKhachHang");
+
+                    b.HasIndex("MaNhanVien");
+
+                    b.HasIndex("MaSach");
+
+                    b.ToTable("HoaDonBanHang");
+                });
+
             modelBuilder.Entity("BaiTapNhom11.Models.HoaDonNhap", b =>
                 {
                     b.Property<string>("MaHoaDonNhap")
@@ -82,6 +114,7 @@ namespace BaiTapNhom11.Migrations
 
                     b.Property<string>("CMND")
                         .IsRequired()
+                        .HasMaxLength(13)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("DiaChi")
@@ -97,6 +130,7 @@ namespace BaiTapNhom11.Migrations
 
                     b.Property<string>("SDT")
                         .IsRequired()
+                        .HasMaxLength(13)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("TenKhachHang")
@@ -156,10 +190,12 @@ namespace BaiTapNhom11.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("SDT")
+                        .HasMaxLength(12)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("SoCMND")
                         .IsRequired()
+                        .HasMaxLength(13)
                         .HasColumnType("TEXT");
 
                     b.HasKey("MaNhanVien");
@@ -246,6 +282,27 @@ namespace BaiTapNhom11.Migrations
                     b.HasKey("MaTheLoai");
 
                     b.ToTable("TheLoai");
+                });
+
+            modelBuilder.Entity("BaiTapNhom11.Models.HoaDonBanHang", b =>
+                {
+                    b.HasOne("BaiTapNhom11.Models.KhachHang", "KhachHang")
+                        .WithMany()
+                        .HasForeignKey("MaKhachHang");
+
+                    b.HasOne("BaiTapNhom11.Models.NhanVien", "NhanVien")
+                        .WithMany()
+                        .HasForeignKey("MaNhanVien");
+
+                    b.HasOne("BaiTapNhom11.Models.Sach", "Sach")
+                        .WithMany()
+                        .HasForeignKey("MaSach");
+
+                    b.Navigation("KhachHang");
+
+                    b.Navigation("NhanVien");
+
+                    b.Navigation("Sach");
                 });
 
             modelBuilder.Entity("BaiTapNhom11.Models.KhachHang", b =>

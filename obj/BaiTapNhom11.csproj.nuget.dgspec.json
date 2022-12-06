@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\BTL\\BTLon\\Nhom11\\BaiTapNhom11.csproj": {}
+    "D:\\Nhom11_BanHoanChinh\\BaiTapNhom11\\BaiTapNhom11.csproj": {}
   },
   "projects": {
-    "E:\\BTL\\BTLon\\Nhom11\\BaiTapNhom11.csproj": {
+    "D:\\Nhom11_BanHoanChinh\\BaiTapNhom11\\BaiTapNhom11.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BTL\\BTLon\\Nhom11\\BaiTapNhom11.csproj",
+        "projectUniqueName": "D:\\Nhom11_BanHoanChinh\\BaiTapNhom11\\BaiTapNhom11.csproj",
         "projectName": "BaiTapNhom11",
-        "projectPath": "E:\\BTL\\BTLon\\Nhom11\\BaiTapNhom11.csproj",
-        "packagesPath": "C:\\Users\\lamho\\.nuget\\packages\\",
-        "outputPath": "E:\\BTL\\BTLon\\Nhom11\\obj\\",
+        "projectPath": "D:\\Nhom11_BanHoanChinh\\BaiTapNhom11\\BaiTapNhom11.csproj",
+        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
+        "outputPath": "D:\\Nhom11_BanHoanChinh\\BaiTapNhom11\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lamho\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -52,6 +52,10 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -76,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-rc.2.22477.23\\RuntimeIdentifierGraph.json"
         }
       }
     }
