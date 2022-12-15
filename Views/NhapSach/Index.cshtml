@@ -1,0 +1,59 @@
+@model IEnumerable<BTLNhom11.Models.NhapSach>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.HangHoa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhaCungCap)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Kho)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SoluongNhap)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ngayNhap)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.HangHoa.TenHH)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhaCungCap.Tenncc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kho.Dckho)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SoluongNhap)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ngayNhap)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.MaNhap">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.MaNhap">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.MaNhap">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
