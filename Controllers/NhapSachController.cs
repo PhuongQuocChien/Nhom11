@@ -6,12 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BTLNhom11.Models;
+using BTLNhom11.Models.Process;
 
 namespace BTLNhom11.Controllers
 {
     public class NhapSachController : Controller
     {
         private readonly MvcMovieContext _context;
+        private StringProcess strPro = new StringProcess();
 
         public NhapSachController(MvcMovieContext context)
         {
@@ -52,6 +54,14 @@ namespace BTLNhom11.Controllers
             ViewData["MaHH"] = new SelectList(_context.HangHoa, "MaHH", "TenHH");
             ViewData["Makho"] = new SelectList(_context.Kho, "Makho", "Dckho");
             ViewData["Mancc"] = new SelectList(_context.NhaCungCap, "Mancc", "Tenncc");
+            var newNhapSach = "NS001";
+            var countNhapSach = _context.NhapSach.Count();
+            if (countNhapSach > 0)
+            {
+                var MaNhapSach = _context.NhapSach.OrderByDescending(m => m.MaNhap).First().MaNhap;
+                newNhapSach = strPro.AutoGenerateCode(MaNhapSach);
+            }
+            ViewBag.newID = newNhapSach;
             return View();
         }
 

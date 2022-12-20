@@ -6,12 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BTLNhom11.Models;
+using BTLNhom11.Models.Process;
 
 namespace BTLNhom11.Controllers
 {
     public class KhoController : Controller
     {
         private readonly MvcMovieContext _context;
+        private StringProcess strPro = new StringProcess();
 
         public KhoController(MvcMovieContext context)
         {
@@ -47,6 +49,14 @@ namespace BTLNhom11.Controllers
         // GET: Kho/Create
         public IActionResult Create()
         {
+            var newKho = "KHO001";
+            var countKho = _context.Kho.Count();
+            if (countKho > 0)
+            {
+                var MaKho = _context.Kho.OrderByDescending(m => m.Makho).First().Makho;
+                newKho = strPro.AutoGenerateCode(MaKho);
+            }
+            ViewBag.newID = newKho;
             return View();
         }
 

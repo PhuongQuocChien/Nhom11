@@ -6,12 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BTLNhom11.Models;
+using BTLNhom11.Models.Process;
 
 namespace BTLNhom11.Controllers
 {
     public class MenuSachController : Controller
     {
         private readonly MvcMovieContext _context;
+        private StringProcess strPro = new StringProcess();
 
         public MenuSachController(MvcMovieContext context)
         {
@@ -50,6 +52,14 @@ namespace BTLNhom11.Controllers
         {
             ViewData["MaNhap"] = new SelectList(_context.NhapSach, "MaNhap", "MaHH");
             ViewData["MaTheLoai"] = new SelectList(_context.TheLoai, "MaTheLoai", "TenTheLoai");
+            var newMenuSach = "MS001";
+            var countMenuSach = _context.MenuSach.Count();
+            if (countMenuSach > 0)
+            {
+                var MaMenuSach = _context.MenuSach.OrderByDescending(m => m.MaSach).First().MaSach;
+                newMenuSach = strPro.AutoGenerateCode(MaMenuSach);
+            }
+            ViewBag.newID = newMenuSach;
             return View();
         }
 

@@ -6,12 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BTLNhom11.Models;
+using BTLNhom11.Models.Process;
 
 namespace BTLNhom11.Controllers
 {
     public class PhieuBHController : Controller
     {
         private readonly MvcMovieContext _context;
+        private StringProcess strPro = new StringProcess();
 
         public PhieuBHController(MvcMovieContext context)
         {
@@ -50,6 +52,14 @@ namespace BTLNhom11.Controllers
         {
             ViewData["MaKH"] = new SelectList(_context.KhachHang, "MaKH", "TenKH");
             ViewData["MaNV"] = new SelectList(_context.NhanVien, "MaNV", "TenNV");
+            var newPhieuBH = "PBH001";
+            var countPhieuBH = _context.PhieuBH.Count();
+            if (countPhieuBH > 0)
+            {
+                var MaPhieuBH = _context.PhieuBH.OrderByDescending(m => m.MaPBH).First().MaPBH;
+                newPhieuBH = strPro.AutoGenerateCode(MaPhieuBH);
+            }
+            ViewBag.newID = newPhieuBH;
             return View();
         }
 

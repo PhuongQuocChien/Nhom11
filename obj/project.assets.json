@@ -11309,19 +11309,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nguye\\.nuget\\packages\\": {}
+    "C:\\Users\\lamho\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Nhom11_BanHoanChinh\\BTLNhom11\\BTLNhom11.csproj",
+      "projectUniqueName": "E:\\Phat trien phan mem quan ly\\BTLNhom11\\BTLNhom11\\BTLNhom11.csproj",
       "projectName": "BTLNhom11",
-      "projectPath": "D:\\Nhom11_BanHoanChinh\\BTLNhom11\\BTLNhom11.csproj",
-      "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "D:\\Nhom11_BanHoanChinh\\BTLNhom11\\obj\\",
+      "projectPath": "E:\\Phat trien phan mem quan ly\\BTLNhom11\\BTLNhom11\\BTLNhom11.csproj",
+      "packagesPath": "C:\\Users\\lamho\\.nuget\\packages\\",
+      "outputPath": "E:\\Phat trien phan mem quan ly\\BTLNhom11\\BTLNhom11\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\lamho\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -11387,7 +11387,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-rc.2.22477.23\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

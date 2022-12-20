@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
 
-namespace BaiTapNhom11.Models.Process
+namespace BTLNhom11.Models.Process
 {
     public class StringProcess
     {

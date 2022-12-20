@@ -6,12 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BTLNhom11.Models;
+using BTLNhom11.Models.Process;
 
 namespace BTLNhom11.Controllers
 {
     public class KiemKhoController : Controller
     {
         private readonly MvcMovieContext _context;
+        private StringProcess strPro = new StringProcess();
 
         public KiemKhoController(MvcMovieContext context)
         {
@@ -50,6 +52,14 @@ namespace BTLNhom11.Controllers
         {
             ViewData["MaHH"] = new SelectList(_context.HangHoa, "MaHH", "TenHH");
             ViewData["Makho"] = new SelectList(_context.Kho, "Makho", "Dckho");
+            var newKiemKho = "Kho001";
+            var countKiemKho = _context.KiemKho.Count();
+            if (countKiemKho > 0)
+            {
+                var MaKiemKho = _context.KiemKho.OrderByDescending(m => m.MaKK).First().MaKK;
+                newKiemKho = strPro.AutoGenerateCode(MaKiemKho);
+            }
+            ViewBag.newID = newKiemKho;
             return View();
         }
 

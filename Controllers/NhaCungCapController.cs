@@ -6,12 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BTLNhom11.Models;
+using BTLNhom11.Models.Process;
 
 namespace BTLNhom11.Controllers
 {
     public class NhaCungCapController : Controller
     {
         private readonly MvcMovieContext _context;
+        private StringProcess strPro = new StringProcess();
 
         public NhaCungCapController(MvcMovieContext context)
         {
@@ -47,6 +49,14 @@ namespace BTLNhom11.Controllers
         // GET: NhaCungCap/Create
         public IActionResult Create()
         {
+            var newNhaCungCap = "NCC001";
+            var countNhaCungCap = _context.NhaCungCap.Count();
+            if (countNhaCungCap > 0)
+            {
+                var MaNhaCungCap = _context.NhaCungCap.OrderByDescending(m => m.Mancc).First().Mancc;
+                newNhaCungCap = strPro.AutoGenerateCode(MaNhaCungCap);
+            }
+            ViewBag.newID = newNhaCungCap;
             return View();
         }
 

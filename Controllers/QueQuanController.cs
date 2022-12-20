@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BTLNhom11.Models;
-using BaiTapNhom11.Models.Process;
+using BTLNhom11.Models.Process;
 
 namespace BTLNhom11.Controllers
 {

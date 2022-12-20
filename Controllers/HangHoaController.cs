@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BTLNhom11.Models;
-using BaiTapNhom11.Models.Process;
+using BTLNhom11.Models.Process;
 
 namespace BTLNhom11.Controllers
 {
@@ -49,6 +49,14 @@ namespace BTLNhom11.Controllers
         // GET: HangHoa/Create
         public IActionResult Create()
         {
+            var newHangHoa = "HH001";
+            var countHangHoa = _context.HangHoa.Count();
+            if (countHangHoa > 0)
+            {
+                var MaHangHoa = _context.HangHoa.OrderByDescending(m => m.MaHH).First().MaHH;
+                newHangHoa = strPro.AutoGenerateCode(MaHangHoa);
+            }
+            ViewBag.newID = newHangHoa;
             return View();
         }
 
