@@ -9,309 +9,309 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BTLNhom11
 build_property.RootNamespace = BTLNhom11
-build_property.ProjectDir = E:\Phat trien phan mem quan ly\BTLNhom11\BTLNhom11\
+build_property.ProjectDir = e:\Phat trien phan mem quan ly\BTLNhom11\BTLNhom11\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\Phat trien phan mem quan ly\BTLNhom11\BTLNhom11
+build_property.MSBuildProjectDirectory = e:\Phat trien phan mem quan ly\BTLNhom11\BTLNhom11
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/ChucVu/Create.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/ChucVu/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1Y1Z1XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/ChucVu/Delete.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/ChucVu/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1Y1Z1XERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/ChucVu/Details.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/ChucVu/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1Y1Z1XERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/ChucVu/Edit.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/ChucVu/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1Y1Z1XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/ChucVu/Index.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/ChucVu/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1Y1Z1XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/ChucVu/Upload.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/ChucVu/Upload.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1Y1Z1XFVwbG9hZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/GioiTinh/Create.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/GioiTinh/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvaVRpbmhcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/GioiTinh/Delete.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/GioiTinh/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvaVRpbmhcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/GioiTinh/Details.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/GioiTinh/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvaVRpbmhcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/GioiTinh/Edit.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/GioiTinh/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvaVRpbmhcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/GioiTinh/Index.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/GioiTinh/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvaVRpbmhcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/HangHoa/Create.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/HangHoa/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/HangHoa/Delete.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/HangHoa/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/HangHoa/Details.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/HangHoa/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/HangHoa/Edit.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/HangHoa/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/HangHoa/Index.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/HangHoa/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/Home/Index.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/Home/Privacy.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/KhachHang/Create.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/KhachHang/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/KhachHang/Delete.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/KhachHang/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/KhachHang/Details.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/KhachHang/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/KhachHang/Edit.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/KhachHang/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/KhachHang/Index.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/KhachHang/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/Kho/Create.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/Kho/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/Kho/Delete.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/Kho/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hvXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/Kho/Details.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/Kho/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hvXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/Kho/Edit.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/Kho/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/Kho/Index.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/Kho/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/KiemKho/Create.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/KiemKho/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2llbUtob1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/KiemKho/Delete.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/KiemKho/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2llbUtob1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/KiemKho/Details.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/KiemKho/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2llbUtob1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/KiemKho/Edit.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/KiemKho/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2llbUtob1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/KiemKho/Index.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/KiemKho/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2llbUtob1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/MenuSach/Create.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/MenuSach/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVNhY2hcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/MenuSach/Delete.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/MenuSach/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVNhY2hcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/MenuSach/Details.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/MenuSach/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVNhY2hcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/MenuSach/Edit.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/MenuSach/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVNhY2hcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/MenuSach/Index.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/MenuSach/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVNhY2hcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhaCungCap/Create.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhaCungCap/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhQ3VuZ0NhcFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhaCungCap/Delete.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhaCungCap/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhQ3VuZ0NhcFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhaCungCap/Details.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhaCungCap/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhQ3VuZ0NhcFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhaCungCap/Edit.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhaCungCap/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhQ3VuZ0NhcFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhaCungCap/Index.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhaCungCap/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhQ3VuZ0NhcFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhanVien/Create.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhanVien/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhanVien/Delete.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhanVien/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhanVien/Details.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhanVien/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhanVien/Edit.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhanVien/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhanVien/Index.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhanVien/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhapSach/Create.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhapSach/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhcFNhY2hcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhapSach/Delete.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhapSach/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhcFNhY2hcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhapSach/Details.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhapSach/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhcFNhY2hcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhapSach/Edit.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhapSach/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhcFNhY2hcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhapSach/Index.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/NhapSach/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhcFNhY2hcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/PhieuBH/Create.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/PhieuBH/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhpZXVCSFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/PhieuBH/Delete.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/PhieuBH/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhpZXVCSFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/PhieuBH/Details.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/PhieuBH/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhpZXVCSFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/PhieuBH/Edit.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/PhieuBH/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhpZXVCSFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/PhieuBH/Index.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/PhieuBH/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhpZXVCSFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/QueQuan/Create.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/QueQuan/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlUXVhblxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/QueQuan/Delete.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/QueQuan/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlUXVhblxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/QueQuan/Details.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/QueQuan/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlUXVhblxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/QueQuan/Edit.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/QueQuan/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlUXVhblxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/QueQuan/Index.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/QueQuan/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlUXVhblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/QueQuan/Upload.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/QueQuan/Upload.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlUXVhblxVcGxvYWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/Shared/Error.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/Shared/_ValidationScriptsPartial.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/TheLoai/Create.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/TheLoai/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlTG9haVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/TheLoai/Delete.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/TheLoai/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlTG9haVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/TheLoai/Details.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/TheLoai/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlTG9haVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/TheLoai/Edit.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/TheLoai/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlTG9haVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/TheLoai/Index.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/TheLoai/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlTG9haVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/TheLoai/Upload.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/TheLoai/Upload.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlTG9haVxVcGxvYWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/_ViewImports.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/_ViewStart.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/Shared/_Layout.cshtml]
+[e:/Phat trien phan mem quan ly/BTLNhom11/BTLNhom11/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-n6tikpjh3o
